@@ -7,5 +7,9 @@ export const logout = (req, res) => {
 };
 
 export const signup = (req, res) => {
-    console.log("Signup User");
+    // try {
+    //     const (USERNAME)= req.body+
+    // } catch (error) {
+        
+    // }
 };
