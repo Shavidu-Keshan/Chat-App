@@ -88,6 +88,6 @@ export const logout = async (req, res) => {
     console.log("Error logout up user", error);
     res.status(500).json({error:"Internal Server Error"});
    }
-};
+}
 
 
