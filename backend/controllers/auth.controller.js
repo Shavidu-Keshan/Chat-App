@@ -44,7 +44,7 @@ export const signup = async(req, res) => {
             profilePic: newUser.profilePic
         });
         }else{
-            res.status(500).json({error:"Invalid user data"});
+            res.status(400).json({error:"Invalid user data"});
         }
     } catch (error) {
         console.log("Error signing up user", error);
